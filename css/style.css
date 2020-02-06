@@ -50,6 +50,7 @@
 	font-family: 'HelveticaNeueRegular';
 	font-size: 14px;
 	background: #FF8364;
+	color:#fff;
 	padding:10px 45px; 
 	border: transparent;
 	border-radius:4px;
@@ -189,6 +190,7 @@
     border: none;
     padding: 15px;
     width: 52%;
+
 }
 .content_search input[type="submit"] {
 	padding: 15px 32px;
@@ -197,6 +199,7 @@
     border-radius: 4px;
     font-family: 'HelveticaNeueRegular';
 	font-size: 16px;
+	color:#fff;
 }
  .content_search form {
  	width: 70%;
@@ -213,6 +216,7 @@
 }
 .content_search{
 	display: flex;
+	align-items: center;
 }
 .block_info_text {
 	 width: 70%;
@@ -223,7 +227,10 @@
 	margin-bottom:30px;
 	text-align: left;
 	font-size:12px;
-
+}
+.content_search .empty_block p{
+	font-family: 'HelveticaNeueRegular';
+	font-size: 18px;
 }
 
 
